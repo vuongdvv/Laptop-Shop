@@ -1,0 +1,37 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-submit {
+    background: #4f46e5;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #e5e7eb;
+    text-decoration: none;
+}
